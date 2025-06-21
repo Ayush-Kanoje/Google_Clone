@@ -4,73 +4,113 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google-Homepage-Clone</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <nav>
         <span class="NavLeft">
           <ul>
-      <a href="https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header"><li class="ul1">About</li></a>
-            <a href="https://store.google.com/in/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN&pli=1"><li class="ul2">Store</li></a>
+            <a
+              href="https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header"
+              ><li class="ul1">About</li></a
+            >
+            <a
+              href="https://store.google.com/in/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN&pli=1"
+              ><li class="ul2">Store</li></a
+            >
           </ul>
         </span>
 
-          <span class="NavRight">
-            <ul>
-                <a href=""></a><li class="ul3">Gmail</li>
+        <span class="NavRight">
+          <ul>
+            <a href=""></a>
+            <li class="ul3">Gmail</li>
 
-                <a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl"><li class="ul4">Images</li></a>
+            <a href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl"
+              ><li class="ul4">Images</li></a
+            >
 
-                <a href="https://labs.google.com/search?source=hp&authuser=0"><li class="ul5"><img src="assets/GoogleLab.png" alt="search-lab"></li></a>
+            <a href="https://labs.google.com/search?source=hp&authuser=0"
+              ><li class="ul5">
+                <img src="assets/GoogleLab.png" alt="search-lab" /></li
+            ></a>
 
-                <li class="ul6"><img src="assets/googleApp.png" alt="GoogleApp"></li>
-                
-                <li class="ul7"><img src="assets/user.png" alt="User"><li>
-                </ul>
+            <li class="ul6">
+              <img src="assets/googleApp.png" alt="GoogleApp" />
+            </li>
+
+            <li class="ul7">
+              <img src="assets/user.png" alt="User" />
+              <li></li>
+            </li>
+          </ul>
         </span>
       </nav>
     </header>
 
-
-    <div class="main"> 
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Googl">
+    <div class="main">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Googl"
+      />
     </div>
-    
+
     <!-- search box -->
     <div class="search-container">
-      <img src="assets/search.png" id="search" alt="Search">
+      <img src="assets/search.png" id="search" alt="Search" />
 
-      <input type="text" id="search-box" placeholder="Search Google..." onkeypress="handleKeyPress(event)">
+      <input
+        type="text"
+        id="search-box"
+        placeholder="Search Google..."
+        onkeypress="handleKeyPress(event)"
+      />
       <button onclick="redirectToGoogle()"></button>
 
-      <img src="assets/google-mic.png"  class="rightimg" alt="Voice Search">
-      <img src="assets/lens.png" class="rightimg" alt="Voice Search">
+      <img src="assets/google-mic.png" class="rightimg" alt="Voice Search" />
+      <img src="assets/lens.png" class="rightimg" alt="Voice Search" />
+    </div>
 
-  </div>
-  
     <div class="button-container">
       <button class="button1">Google Search</button>
-      <a href="https://doodles.google/"><button class="button1">I'm Feeling Lucky</button></a>
+      <a href="https://doodles.google/"
+        ><button class="button1">I'm Feeling Lucky</button></a
+      >
     </div>
 
     <div class="language-container">
       Google Offered in :
-      <button class="language-btn" onclick="changeLanguage('en')">English</button>
-      <button class="language-btn" onclick="changeLanguage('hi')">हिन्दी</button>
-      <button class="language-btn" onclick="changeLanguage('es')">Español</button>
-      <button class="language-btn" onclick="changeLanguage('fr')">Français</button>
-      <button class="language-btn" onclick="changeLanguage('de')">Deutsch</button>
+      <button class="language-btn" onclick="changeLanguage('en')">
+        English
+      </button>
+      <button class="language-btn" onclick="changeLanguage('hi')">
+        हिन्दी
+      </button>
+      <button class="language-btn" onclick="changeLanguage('es')">
+        Español
+      </button>
+      <button class="language-btn" onclick="changeLanguage('fr')">
+        Français
+      </button>
+      <button class="language-btn" onclick="changeLanguage('de')">
+        Deutsch
+      </button>
       <button class="language-btn" onclick="changeLanguage('zh')">中文</button>
-      <button class="language-btn" onclick="changeLanguage('ja')">日本語</button>
-      <button class="language-btn" onclick="changeLanguage('ar')">العربية</button>
-      <button class="language-btn" onclick="changeLanguage('ru')">Русский</button>
+      <button class="language-btn" onclick="changeLanguage('ja')">
+        日本語
+      </button>
+      <button class="language-btn" onclick="changeLanguage('ar')">
+        العربية
+      </button>
+      <button class="language-btn" onclick="changeLanguage('ru')">
+        Русский
+      </button>
     </div>
-   
 
     <footer>
       <h6>India</h6>
-      <hr>
+      <hr />
       <div class="footer-contained">
         <ul class="list1">
           <li>Advertising</li>
@@ -85,6 +125,6 @@
         </ul>
       </div>
     </footer>
-   <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
